@@ -1,78 +1,115 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Crimson Text', serif;
-    color: #241715;
+  font-family: "Crimson Text", serif;
+  color: #241715;
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    color:#402A2C;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #402a2c;
 }
 
 h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    color:#402A2C;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #402a2c;
 }
 
-.title{
-    font-family: 'Lobster', cursive;
-    font-size: 30px;
+h5 {
+  font-weight: 700;
+  color: #402a2c;
 }
-.bg-pink{
-    background-color:#703D57;
+
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
 }
-.hero-section{
-    background-image: url("../img/bg-hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    padding: 52px 197px;
-    text-align: end;
-    color: #ffffff;
+.bg-pink {
+  background-color: #703d57;
 }
 
 .bg-pink-creme {
-    background-color: #D9B8C4;
+  background-color: #d9b8c4;
 }
 
 footer {
-    background-color: #402A2C;
-    padding: 40px 0px;
-    color: #ffffff;
+  background-color: #402a2c;
+  padding: 40px 0px;
+  color: #ffffff;
 }
 
 footer a {
-    color:#ffffff;
-    margin: 0 10px;
+  color: #ffffff;
+  margin: 0 10px;
 }
 
 footer a:hover {
-    color:#bdbdbd;
-    text-decoration: none;
+  color: #bdbdbd;
+  text-decoration: none;
 }
 
 footer p {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .bg-foto {
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 35px;
-    border-radius: 10px;
+  background-color: rgba(64, 42, 44, 0.5);
+  padding: 35px;
+  border-radius: 10px;
 }
 
 #acerca-de-mi {
-    padding: 2.5rem 0;
+  padding: 2.5rem 0;
 }
 
 #karen-cadenas {
-    background-image: url("../img/fondo-perfil.jpg");
-    min-height: 800px;
-    padding-top: 100px;
-    padding-bottom: 2.5rem;
+  background-image: url("../img/fondo-perfil.jpg");
+  min-height: 800px;
+  padding-top: 100px;
+  padding-bottom: 2.5rem;
+}
+
+#karen-cadenas h1::before {
+  content: "";
+  position: absolute;
+  width: 30.4rem;
+  top: 150px;
+  border-bottom: solid 3px;
+}
+
+.carousel-caption {
+  color: #402a2c;
+  background-color: rgba(217, 184, 196, 0.9);
+  border-radius: 10px;
+}
+
+.btn-rose {
+    background-color: #915071;
+    border-color:#915071;
+    color:#fff;
+}
+
+.btn-rose:hover {
+    border-color:#B77B99;
+    background-color: #B77B99;
+    color:#fff;
+}
+
+.btn-rose:active {
+    box-shadow: none;
+    border-color:#B77B99;
+    background-color: #B77B99;
+    color:#fff;
+}
+
+.btn-rose:active:focus {
+    box-shadow: none;
+}
+
+.btn-rose:focus {
+    box-shadow: none;
 }
