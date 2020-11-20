@@ -10,18 +10,18 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: #402a2c;
+  color: #512A3F;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #402a2c;
+  color: #512A3F;
 }
 
 h5 {
   font-weight: 700;
-  color: #402a2c;
+  color: #512A3F;
 }
 
 .title {
@@ -37,7 +37,7 @@ h5 {
 }
 
 footer {
-  background-color: #402a2c;
+  background-color: #512A3F;
   padding: 40px 0px;
   color: #ffffff;
 }
@@ -56,6 +56,13 @@ footer p {
   font-size: 1.8rem;
 }
 
+.main-title {
+    background-color: rgba(241, 228, 235, 0.4);
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-radius: 0 0 20px 20px;
+}
+
 .bg-foto {
   background-color: rgba(64, 42, 44, 0.5);
   padding: 35px;
@@ -69,7 +76,7 @@ footer p {
 #karen-cadenas {
   background-image: url("../img/fondo-perfil.jpg");
   min-height: 800px;
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 2.5rem;
 }
 
@@ -83,7 +90,7 @@ footer p {
 
 .carousel-caption {
   color: #402a2c;
-  background-color: rgba(217, 184, 196, 0.9);
+  background-color: rgba(241, 228, 235, 0.9);
   border-radius: 10px;
 }
 
