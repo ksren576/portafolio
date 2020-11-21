@@ -10,18 +10,18 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: #512A3F;
+  color: #512a3f;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #512A3F;
+  color: #512a3f;
 }
 
 h5 {
   font-weight: 700;
-  color: #512A3F;
+  color: #512a3f;
 }
 
 .title {
@@ -37,7 +37,7 @@ h5 {
 }
 
 footer {
-  background-color: #512A3F;
+  background-color: #512a3f;
   padding: 40px 0px;
   color: #ffffff;
 }
@@ -57,10 +57,10 @@ footer p {
 }
 
 .main-title {
-    background-color: rgba(241, 228, 235, 0.4);
-    padding: 2rem 0;
-    margin-bottom: 2rem;
-    border-radius: 0 0 20px 20px;
+  background-color: rgba(241, 228, 235, 0.4);
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  border-radius: 0 0 20px 20px;
 }
 
 .bg-foto {
@@ -95,28 +95,28 @@ footer p {
 }
 
 .btn-rose {
-    background-color: #915071;
-    border-color:#915071;
-    color:#fff;
+  background-color: #915071;
+  border-color: #915071;
+  color: #fff;
 }
 
 .btn-rose:hover {
-    border-color:#B77B99;
-    background-color: #B77B99;
-    color:#fff;
+  border-color: #b77b99;
+  background-color: #b77b99;
+  color: #fff;
 }
 
 .btn-rose:active {
-    box-shadow: none;
-    border-color:#B77B99;
-    background-color: #B77B99;
-    color:#fff;
+  box-shadow: none;
+  border-color: #b77b99;
+  background-color: #b77b99;
+  color: #fff;
 }
 
 .btn-rose:active:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .btn-rose:focus {
-    box-shadow: none;
+  box-shadow: none;
 }

@@ -1,3 +1,3 @@
-$(function(){
-    $('[data-togle="popover"]').popover();
-} )
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
