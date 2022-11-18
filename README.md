@@ -1,4 +1,4 @@
-# Proyecto de portafolio para Desafio Latam
+# Proyecto de portafolio Karen
 
 Autor: Karen Cadenas
 
